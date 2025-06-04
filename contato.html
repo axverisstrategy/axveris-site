@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Axveris Strategy</title>
+    <meta name="description" content="Entre em contato com a Axveris Strategy para consultoria em eficiência operacional, automação de processos e estratégia empresarial.">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Pular para o conteúdo principal</a>
+    
+    <header class="header">
+        <div class="container">
+            <div class="header__logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Axveris Strategy Logo">
+                    <h1>Axveris Strategy</h1>
+                </a>
+            </div>
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="sobre.html" class="nav__link">Sobre</a></li>
+                    <li class="nav__item"><a href="servicos.html" class="nav__link">Serviços</a></li>
+                    <li class="nav__item"><a href="cases.html" class="nav__link">Cases</a></li>
+                    <li class="nav__item"><a href="diagnostico.html" class="nav__link">Diagnóstico</a></li>
+                    <li class="nav__item"><a href="contato.html" class="nav__link active">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="header__cta">
+                <a href="diagnostico.html" class="btn btn--primary">Diagnóstico Gratuito</a>
+            </div>
+            <button class="header__toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Entre em Contato</h1>
+                <p class="page-subtitle">Estamos prontos para ajudar sua empresa a alcançar novos patamares</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="container">
+                <div class="contact__grid">
+                    <div class="contact__info animate-on-scroll">
+                        <h2>Fale Conosco</h2>
+                        <div class="contact__details">
+                            <div class="contact__item">
+                                <div class="contact__icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact__text">
+                                    <h3>Email</h3>
+                                    <p><a href="mailto:contato@axveris.com.br">contato@axveris.com.br</a></p>
+                                </div>
+                            </div>
+                            <div class="contact__item">
+                                <div class="contact__icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="contact__text">
+                                    <h3>Telefone/WhatsApp</h3>
+                                    <p><a href="tel:+551199999999">+55 (11) 9XXXX-XXXX</a></p>
+                                </div>
+                            </div>
+                            <div class="contact__item">
+                                <div class="contact__icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="contact__text">
+                                    <h3>Horário de Atendimento</h3>
+                                    <p>Segunda a Sexta: 9h às 18h</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__social">
+                            <h3>Redes Sociais</h3>
+                            <div class="social__links">
+                                <a href="#" class="social__link" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="social__link" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="social__link" aria-label="WhatsApp">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__whatsapp">
+                            <h3>Atendimento via WhatsApp</h3>
+                            <p>Para um contato mais ágil, converse diretamente com um de nossos consultores pelo WhatsApp.</p>
+                            <a href="https://wa.me/5511XXXXXXXX" class="btn btn--whatsapp" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Iniciar Conversa no WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__form animate-on-scroll">
+                        <h2>Envie sua mensagem</h2>
+                        <p>Preencha o formulário abaixo e entraremos em contato em até 24 horas úteis.</p>
+                        
+                        <form id="contactForm" action="#" method="POST">
+                            <div class="form__group">
+                                <label for="name">Nome Completo*</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form__group">
+                                <label for="email">Email*</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form__group">
+                                <label for="phone">Telefone*</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form__group">
+                                <label for="company">Empresa*</label>
+                                <input type="text" id="company" name="company" required>
+                            </div>
+                            <div class="form__group">
+                                <label for="position">Cargo</label>
+                                <input type="text" id="position" name="position">
+                            </div>
+                            <div class="form__group">
+                                <label for="interest">Área de Interesse*</label>
+                                <select id="interest" name="interest" required>
+                                    <option value="">Selecione...</option>
+                                    <option value="processos">Mapeamento e Otimização de Processos</option>
+                                    <option value="automacao">Automação de Processos</option>
+                                    <option value="eficiencia">Consultoria Estratégica de Eficiência Operacional</option>
+                                    <option value="financeiro">Planejamento Financeiro e Análise de Custos</option>
+                                    <option value="dashboards">Desenvolvimento de Dashboards</option>
+                                    <option value="diagnostico">Diagnóstico Gratuito</option>
+                                    <option value="outro">Outro (especifique)</option>
+                                </select>
+                            </div>
+                            <div class="form__group">
+                                <label for="message">Mensagem*</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <div class="form__group">
+                                <label for="source">Como conheceu a Axveris Strategy?</label>
+                                <select id="source" name="source">
+                                    <option value="">Selecione...</option>
+                                    <option value="busca">Busca na internet</option>
+                                    <option value="indicacao">Indicação</option>
+                                    <option value="linkedin">LinkedIn</option>
+                                    <option value="evento">Evento</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+                            <div class="form__group">
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="consent" name="consent" required>
+                                    <label for="consent">Concordo em receber comunicações da Axveris Strategy*</label>
+                                </div>
+                            </div>
+                            <div class="form__submit">
+                                <button type="submit" class="btn btn--primary btn--large">Enviar Mensagem</button>
+                            </div>
+                            <p class="form__privacy">Respeitamos sua privacidade. As informações fornecidas serão utilizadas exclusivamente para responder à sua solicitação e, caso autorizado, enviar comunicações relevantes sobre nossos serviços.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Alternative Contact Section -->
+        <section class="alt-contact">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Outras formas de contato</h2>
+                </div>
+                <div class="alt-contact__grid">
+                    <div class="alt-contact__card animate-on-scroll">
+                        <div class="alt-contact__icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3>Prefere agendar uma reunião?</h3>
+                        <p>Escolha um horário em nossa agenda para uma conversa inicial de 30 minutos com um de nossos consultores.</p>
+                        <a href="#" class="btn btn--secondary">Agendar Reunião</a>
+                    </div>
+                    <div class="alt-contact__card animate-on-scroll">
+                        <div class="alt-contact__icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Solicite um diagnóstico gratuito</h3>
+                        <p>Se você deseja uma análise inicial das oportunidades de melhoria em sua organização, solicite nosso diagnóstico gratuito.</p>
+                        <a href="diagnostico.html" class="btn btn--secondary">Solicitar Diagnóstico Gratuito</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Dúvidas Frequentes</h2>
+                </div>
+                <div class="faq__list animate-on-scroll">
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <h3>Quanto tempo leva para receber um retorno após o envio do formulário?</h3>
+                            <span class="faq__toggle"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq__answer">
+                            <p>Respondemos a todas as mensagens em até 24 horas úteis.</p>
+                        </div>
+                    </div>
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <h3>Vocês atendem empresas fora de São Paulo?</h3>
+                            <span class="faq__toggle"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq__answer">
+                            <p>Sim, atendemos empresas em todo o Brasil, com consultoria remota ou presencial conforme a necessidade.</p>
+                        </div>
+                    </div>
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <h3>É possível solicitar uma proposta personalizada?</h3>
+                            <span class="faq__toggle"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq__answer">
+                            <p>Sim, após o contato inicial, desenvolvemos uma proposta totalmente personalizada para as necessidades específicas da sua empresa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__info">
+                    <div class="footer__logo">
+                        <img src="images/logo-white.png" alt="Axveris Strategy Logo">
+                        <h2>Axveris Strategy</h2>
+                    </div>
+                    <p class="footer__tagline">Transformando desafios em vantagem competitiva</p>
+                    <div class="footer__contact">
+                        <p><i class="fas fa-envelope"></i> contato@axveris.com.br</p>
+                        <p><i class="fas fa-phone"></i> +55 (11) 9XXXX-XXXX</p>
+                    </div>
+                </div>
+                <div class="footer__links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="cases.html">Cases</a></li>
+                        <li><a href="diagnostico.html">Diagnóstico</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer__services">
+                    <h3>Nossos Serviços</h3>
+                    <ul>
+                        <li><a href="servicos.html#processos">Mapeamento e Otimização de Processos</a></li>
+                        <li><a href="servicos.html#automacao">Automação de Processos</a></li>
+                        <li><a href="servicos.html#eficiencia">Consultoria Estratégica</a></li>
+                        <li><a href="servicos.html#financeiro">Planejamento Financeiro</a></li>
+                        <li><a href="servicos.html#dashboards">Dashboards e Inteligência de Dados</a></li>
+                    </ul>
+                </div>
+                <div class="footer__cta">
+                    <h3>Vamos Conversar?</h3>
+                    <p>Estamos prontos para ajudar sua empresa a alcançar novos patamares de sucesso.</p>
+                    <a href="contato.html" class="btn btn--secondary">Fale Conosco</a>
+                    <div class="footer__social">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Axveris Strategy. Todos os direitos reservados.</p>
+                <div class="footer__legal">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="whatsapp-float">
+        <a href="https://wa.me/5511XXXXXXXX" target="_blank" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script>
+        // FAQ Toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqItems = document.querySelectorAll('.faq__item');
+            
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq__question');
+                const answer = item.querySelector('.faq__answer');
+                const toggle = item.querySelector('.faq__toggle');
+                
+                question.addEventListener('click', () => {
+                    // Close all other items
+                    faqItems.forEach(otherItem => {
+                        if (otherItem !== item) {
+                            otherItem.classList.remove('active');
+                            otherItem.querySelector('.faq__answer').style.maxHeight = null;
+                            otherItem.querySelector('.faq__toggle i').className = 'fas fa-plus';
+                        }
+                    });
+                    
+                    // Toggle current item
+                    item.classList.toggle('active');
+                    
+                    if (item.classList.contains('active')) {
+                        answer.style.maxHeight = answer.scrollHeight + 'px';
+                        toggle.querySelector('i').className = 'fas fa-minus';
+                    } else {
+                        answer.style.maxHeight = null;
+                        toggle.querySelector('i').className = 'fas fa-plus';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
