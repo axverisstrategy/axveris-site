@@ -1,338 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Axveris Strategy - Consultoria em Eficiência, Automação e Estratégia Empresarial</title>
-    <meta name="description" content="A Axveris Strategy é uma consultoria especializada em eficiência operacional, automação de processos e estratégia empresarial para empresas de pequeno porte.">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Axveris Strategy | Consultoria Estratégica</title>
+  <meta name="description" content="Consultoria estratégica para empresas que buscam transformação, resultados e crescimento sustentável." />
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <a href="#main-content" class="skip-to-content">Pular para o conteúdo principal</a>
-    
-    <header class="header">
-        <div class="container">
-            <div class="header__logo">
-                <a href="index.html">
-                    <img src="images/logo.png" alt="Axveris Strategy Logo">
-                    <h1>Axveris Strategy</h1>
-                </a>
-            </div>
-            <nav class="header__nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
-                    <li class="nav__item"><a href="sobre.html" class="nav__link">Sobre</a></li>
-                    <li class="nav__item"><a href="servicos.html" class="nav__link">Serviços</a></li>
-                    <li class="nav__item"><a href="cases.html" class="nav__link">Cases</a></li>
-                    <li class="nav__item"><a href="diagnostico.html" class="nav__link">Diagnóstico</a></li>
-                    <li class="nav__item"><a href="contato.html" class="nav__link">Contato</a></li>
-                </ul>
-            </nav>
-            <div class="header__cta">
-                <a href="diagnostico.html" class="btn btn--primary">Diagnóstico Gratuito</a>
-            </div>
-            <button class="header__toggle" aria-label="Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </header>
+  <a href="#main" class="skip-to-content">Ir para o conteúdo</a>
 
-    <main id="main-content">
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="container">
-                <div class="hero__content">
-                    <h1 class="hero__title">Transforme sua empresa com estratégias de eficiência e automação</h1>
-                    <p class="hero__subtitle">Consultoria especializada para empresas que buscam otimizar processos, reduzir custos e aumentar produtividade</p>
-                    <div class="hero__buttons">
-                        <a href="diagnostico.html" class="btn btn--primary btn--large">Solicitar Diagnóstico Gratuito</a>
-                        <a href="servicos.html" class="btn btn--secondary btn--large">Conheça Nossos Serviços</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services Section -->
-        <section class="services">
-            <div class="container">
-                <div class="section__header">
-                    <h2 class="section__title">Nossas Soluções</h2>
-                    <p class="section__subtitle">Soluções integradas para os principais desafios empresariais</p>
-                </div>
-                <div class="services__grid">
-                    <div class="service__card animate-on-scroll">
-                        <div class="service__icon">
-                            <i class="fas fa-project-diagram"></i>
-                        </div>
-                        <h3 class="service__title">Mapeamento e Otimização de Processos</h3>
-                        <p class="service__description">Identificamos e eliminamos gargalos, redundâncias e ineficiências em seus processos operacionais, criando fluxos de trabalho mais ágeis e produtivos.</p>
-                        <a href="servicos.html#processos" class="service__link">Saiba mais</a>
-                    </div>
-                    <div class="service__card animate-on-scroll">
-                        <div class="service__icon">
-                            <i class="fas fa-robot"></i>
-                        </div>
-                        <h3 class="service__title">Automação de Processos</h3>
-                        <p class="service__description">Implementamos soluções de automação que eliminam tarefas manuais repetitivas, reduzem erros e liberam sua equipe para atividades estratégicas.</p>
-                        <a href="servicos.html#automacao" class="service__link">Saiba mais</a>
-                    </div>
-                    <div class="service__card animate-on-scroll">
-                        <div class="service__icon">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <h3 class="service__title">Consultoria Estratégica de Eficiência</h3>
-                        <p class="service__description">Desenvolvemos indicadores de performance (KPIs), estruturamos metas e implementamos metodologias para aumentar a produtividade de sua operação.</p>
-                        <a href="servicos.html#eficiencia" class="service__link">Saiba mais</a>
-                    </div>
-                    <div class="service__card animate-on-scroll">
-                        <div class="service__icon">
-                            <i class="fas fa-calculator"></i>
-                        </div>
-                        <h3 class="service__title">Planejamento Financeiro Operacional</h3>
-                        <p class="service__description">Consolidamos dados financeiros, modelamos cenários e definimos estratégias eficazes para redução de despesas e otimização de recursos.</p>
-                        <a href="servicos.html#financeiro" class="service__link">Saiba mais</a>
-                    </div>
-                    <div class="service__card animate-on-scroll">
-                        <div class="service__icon">
-                            <i class="fas fa-tachometer-alt"></i>
-                        </div>
-                        <h3 class="service__title">Dashboards e Inteligência de Dados</h3>
-                        <p class="service__description">Criamos painéis gerenciais personalizados com foco em tomada de decisão, utilizando Power BI, Excel avançado e outras ferramentas analíticas.</p>
-                        <a href="servicos.html#dashboards" class="service__link">Saiba mais</a>
-                    </div>
-                </div>
-                <div class="services__cta text-center">
-                    <a href="servicos.html" class="btn btn--primary">Ver todos os serviços</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section class="about">
-            <div class="container">
-                <div class="about__grid">
-                    <div class="about__content animate-on-scroll">
-                        <h2>Sobre a Axveris Strategy</h2>
-                        <p class="about__text">A Axveris Strategy é uma consultoria especializada em eficiência operacional, automação de processos e estratégia empresarial. Trabalhamos com empresas de pequeno porte, como gerenciadoras de obra e seguros ambientais, que buscam melhorar seu controle financeiro e otimizar suas operações.</p>
-                        <ul class="about__list">
-                            <li>Abordagem personalizada para cada negócio</li>
-                            <li>Metodologia comprovada com resultados mensuráveis</li>
-                            <li>Equipe multidisciplinar com expertise em processos e tecnologia</li>
-                            <li>Foco em implementação e resultados concretos</li>
-                            <li>Transferência de conhecimento para sua equipe</li>
-                        </ul>
-                        <a href="sobre.html" class="btn btn--primary">Conheça Nossa História</a>
-                    </div>
-                    <div class="about__image animate-on-scroll">
-                        <img src="images/about-image.jpg" alt="Equipe Axveris Strategy em reunião estratégica">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Diagnostic Section -->
-        <section class="diagnostic">
-            <div class="container">
-                <div class="diagnostic__grid">
-                    <div class="diagnostic__content animate-on-scroll">
-                        <h2 class="diagnostic__title">Diagnóstico Gratuito de Eficiência Operacional</h2>
-                        <p class="diagnostic__text">Descubra oportunidades de melhoria em sua empresa sem compromisso. Nosso diagnóstico gratuito identifica pontos críticos em seus processos e apresenta recomendações práticas para aumentar eficiência e reduzir custos.</p>
-                        <ul class="diagnostic__benefits">
-                            <li>Visão externa especializada sobre seus processos</li>
-                            <li>Identificação de oportunidades de melhoria imediata</li>
-                            <li>Recomendações práticas e aplicáveis</li>
-                            <li>Sem compromisso ou obrigação de contratação</li>
-                        </ul>
-                    </div>
-                    <div class="diagnostic__form animate-on-scroll">
-                        <h3>Solicite seu diagnóstico</h3>
-                        <form id="diagnosticForm" action="#" method="POST">
-                            <div class="form__group">
-                                <label for="name">Nome</label>
-                                <input type="text" id="name" name="name" required>
-                            </div>
-                            <div class="form__group">
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email" required>
-                            </div>
-                            <div class="form__group">
-                                <label for="phone">Telefone</label>
-                                <input type="tel" id="phone" name="phone" required>
-                            </div>
-                            <div class="form__group">
-                                <label for="company">Empresa</label>
-                                <input type="text" id="company" name="company" required>
-                            </div>
-                            <div class="form__submit">
-                                <button type="submit" class="btn btn--primary btn--large">Solicitar Agora</button>
-                            </div>
-                            <p class="form__privacy">Seus dados estão seguros conosco. Não compartilhamos suas informações com terceiros.</p>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonials Section -->
-        <section class="testimonials">
-            <div class="container">
-                <div class="section__header">
-                    <h2 class="section__title">O que nossos clientes dizem</h2>
-                </div>
-                <div class="testimonials__slider">
-                    <div class="testimonial__card">
-                        <div class="testimonial__quote">
-                            <i class="fas fa-quote-left"></i>
-                            <p>"A parceria com a Axveris Strategy transformou nossa operação. A abordagem metodológica, combinada com um profundo entendimento do nosso negócio, resultou em melhorias que superaram nossas expectativas."</p>
-                        </div>
-                        <div class="testimonial__author">
-                            <div class="author__image">
-                                <img src="images/testimonial-1.jpg" alt="Carlos Silva">
-                            </div>
-                            <div class="author__info">
-                                <h4>Carlos Silva</h4>
-                                <p>Diretor de Operações</p>
-                                <p>Construtora XYZ</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial__card">
-                        <div class="testimonial__quote">
-                            <i class="fas fa-quote-left"></i>
-                            <p>"O que mais impressiona na Axveris é a capacidade de traduzir conceitos complexos em ações práticas. As soluções de automação implementadas não apenas aumentaram nossa eficiência, mas também melhoraram significativamente a experiência de nossos clientes."</p>
-                        </div>
-                        <div class="testimonial__author">
-                            <div class="author__image">
-                                <img src="images/testimonial-2.jpg" alt="Ana Ferreira">
-                            </div>
-                            <div class="author__info">
-                                <h4>Ana Ferreira</h4>
-                                <p>CEO</p>
-                                <p>Seguradora ABC</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial__card">
-                        <div class="testimonial__quote">
-                            <i class="fas fa-quote-left"></i>
-                            <p>"Trabalhar com a Axveris Strategy nos deu clareza e direção em um momento crítico para nosso negócio. A análise estratégica conduzida pela equipe nos permitiu identificar oportunidades que não estávamos enxergando."</p>
-                        </div>
-                        <div class="testimonial__author">
-                            <div class="author__image">
-                                <img src="images/testimonial-3.jpg" alt="Roberto Mendes">
-                            </div>
-                            <div class="author__info">
-                                <h4>Roberto Mendes</h4>
-                                <p>Diretor Financeiro</p>
-                                <p>Gerenciadora de Obras DEF</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Clients Section -->
-        <section class="clients">
-            <div class="container">
-                <div class="section__header">
-                    <h2 class="section__title">Empresas que confiam em nós</h2>
-                </div>
-                <div class="clients__grid">
-                    <img src="images/client-1.png" alt="Logo Cliente 1" class="client__logo">
-                    <img src="images/client-2.png" alt="Logo Cliente 2" class="client__logo">
-                    <img src="images/client-3.png" alt="Logo Cliente 3" class="client__logo">
-                    <img src="images/client-4.png" alt="Logo Cliente 4" class="client__logo">
-                    <img src="images/client-5.png" alt="Logo Cliente 5" class="client__logo">
-                    <img src="images/client-6.png" alt="Logo Cliente 6" class="client__logo">
-                </div>
-            </div>
-        </section>
-
-        <!-- CTA Section -->
-        <section class="cta">
-            <div class="container">
-                <div class="cta__content">
-                    <h2 class="cta__title">Pronto para transformar sua operação?</h2>
-                    <p class="cta__text">Dê o primeiro passo para uma empresa mais eficiente, produtiva e lucrativa.</p>
-                    <div class="cta__buttons">
-                        <a href="contato.html" class="btn btn--primary btn--large">Fale com um Especialista</a>
-                        <a href="diagnostico.html" class="btn btn--secondary btn--large">Solicitar Diagnóstico Gratuito</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__grid">
-                <div class="footer__info">
-                    <div class="footer__logo">
-                        <img src="images/logo-white.png" alt="Axveris Strategy Logo">
-                        <h2>Axveris Strategy</h2>
-                    </div>
-                    <p class="footer__tagline">Transformando desafios em vantagem competitiva</p>
-                    <div class="footer__contact">
-                        <p><i class="fas fa-envelope"></i> contato@axveris.com.br</p>
-                        <p><i class="fas fa-phone"></i> +55 (11) 9XXXX-XXXX</p>
-                    </div>
-                </div>
-                <div class="footer__links">
-                    <h3>Links Rápidos</h3>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="sobre.html">Sobre</a></li>
-                        <li><a href="servicos.html">Serviços</a></li>
-                        <li><a href="cases.html">Cases</a></li>
-                        <li><a href="diagnostico.html">Diagnóstico</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                    </ul>
-                </div>
-                <div class="footer__services">
-                    <h3>Nossos Serviços</h3>
-                    <ul>
-                        <li><a href="servicos.html#processos">Mapeamento e Otimização de Processos</a></li>
-                        <li><a href="servicos.html#automacao">Automação de Processos</a></li>
-                        <li><a href="servicos.html#eficiencia">Consultoria Estratégica</a></li>
-                        <li><a href="servicos.html#financeiro">Planejamento Financeiro</a></li>
-                        <li><a href="servicos.html#dashboards">Dashboards e Inteligência de Dados</a></li>
-                    </ul>
-                </div>
-                <div class="footer__cta">
-                    <h3>Vamos Conversar?</h3>
-                    <p>Estamos prontos para ajudar sua empresa a alcançar novos patamares de sucesso.</p>
-                    <a href="contato.html" class="btn btn--secondary">Fale Conosco</a>
-                    <div class="footer__social">
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__bottom">
-                <p>&copy; 2025 Axveris Strategy. Todos os direitos reservados.</p>
-                <div class="footer__legal">
-                    <a href="#">Política de Privacidade</a>
-                    <a href="#">Termos de Uso</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <div class="whatsapp-float">
-        <a href="https://wa.me/5511XXXXXXXX" target="_blank" aria-label="WhatsApp">
-            <i class="fab fa-whatsapp"></i>
+  <header class="header">
+    <div class="container">
+      <div class="header__logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Logo Axveris" />
+          <h1>Axveris</h1>
         </a>
+      </div>
+      <nav class="header__nav" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link active">Início</a></li>
+          <li class="nav__item"><a href="sobre.html" class="nav__link">Sobre</a></li>
+          <li class="nav__item"><a href="servicos.html" class="nav__link">Serviços</a></li>
+          <li class="nav__item"><a href="cases.html" class="nav__link">Cases</a></li>
+          <li class="nav__item"><a href="diagnostico.html" class="nav__link">Diagnóstico</a></li>
+          <li class="nav__item"><a href="contato.html" class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="header__cta">
+        <a href="https://wa.me/5511999999999" class="btn btn--whatsapp" target="_blank">
+          <i class="fab fa-whatsapp"></i> Fale Conosco
+        </a>
+      </div>
+      <button class="header__toggle" id="menu-toggle" aria-label="Abrir Menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
+  </header>
 
-    <script src="js/main.js"></script>
+  <main id="main">
+    <section class="hero">
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="hero__title">Transformamos Estratégia em Resultado</h1>
+          <p class="hero__subtitle">Consultoria empresarial para empresas que buscam crescimento sustentável e inteligência competitiva.</p>
+          <div class="hero__buttons">
+            <a href="diagnostico.html" class="btn btn--primary">Solicitar Diagnóstico</a>
+            <a href="servicos.html" class="btn btn--secondary">Conheça nossos serviços</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__logo">
+            <img src="images/logo.png" alt="Logo Axveris" />
+            <h3>Axveris</h3>
+          </div>
+          <p class="footer__tagline">Consultoria estratégica com foco em resultados e transformação empresarial.</p>
+        </div>
+        <div>
+          <h3>Contato</h3>
+          <div class="footer__contact">
+            <p><i class="fas fa-phone"></i> (11) 99999-9999</p>
+            <p><i class="fas fa-envelope"></i> contato@axveris.com.br</p>
+            <p><i class="fas fa-map-marker-alt"></i> São Paulo - SP</p>
+          </div>
+        </div>
+        <div>
+          <h3>Links Rápidos</h3>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="cases.html">Cases</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Fale Conosco</h3>
+          <p>Converse com um de nossos especialistas via WhatsApp.</p>
+          <a href="https://wa.me/5511999999999" class="btn btn--whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i> Atendimento Rápido
+          </a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 Axveris Strategy. Todos os direitos reservados.</p>
+        <div class="footer__legal">
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Termos de Uso</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="whatsapp-float">
+    <a href="https://wa.me/5511999999999" target="_blank" aria-label="Abrir WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <script src="main.js"></script>
+  <script src="contact.js"></script>
 </body>
 </html>
