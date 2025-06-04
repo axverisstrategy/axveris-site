@@ -247,7 +247,7 @@ img {
 /* Hero Section */
 .hero {
     padding: calc(var(--spacing-xl) * 2) 0 var(--spacing-xl);
-    background: linear-gradient(rgba(10, 31, 68, 0.85), rgba(10, 31, 68, 0.85)), url('../images/hero-bg.jpg');
+    background: linear-gradient(rgba(10, 31, 68, 0.85), rgba(10, 31, 68, 0.85)), url('../images/hero-bg.png');
     background-size: cover;
     background-position: center;
     color: white;
@@ -728,7 +728,7 @@ section {
 /* Page Header */
 .page-header {
     padding: calc(var(--spacing-xl) * 1.5) 0 var(--spacing-lg);
-    background: linear-gradient(rgba(10, 31, 68, 0.9), rgba(10, 31, 68, 0.9)), url('../images/page-header-bg.jpg');
+    background: linear-gradient(rgba(10, 31, 68, 0.9), rgba(10, 31, 68, 0.9)), url('../images/hero-bg.png');
     background-size: cover;
     background-position: center;
     color: white;
